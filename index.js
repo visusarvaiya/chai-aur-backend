@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require('dotenv').config()
 const express = require('express')
 const app = express()
@@ -54,4 +55,22 @@ app.get("/github",(req,res)=>{
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
 })
+=======
+require('dotenv').config()
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.get('/great',(req,res)=>{
+    res.send("welcome to my page ")
+})
+
+app.listen(process.env.PORT, () => {
+  console.log(`Example app listening on port ${port}`)
+})
+>>>>>>> 1a4330b (LECTURE 2)
 // above we amde is server 

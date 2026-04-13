@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visusarvaiya/chai-aur-backend.git"
+  },
+  "author": "VISHVA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visusarvaiya/chai-aur-backend/issues"
+  },
+  "homepage": "https://github.com/visusarvaiya/chai-aur-backend#readme",
+  "description": ""
+}

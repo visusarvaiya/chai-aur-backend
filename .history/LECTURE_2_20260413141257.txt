@@ -1,0 +1,5 @@
+express and mongoose is pacakage 
+  "scripts": {
+    "start": "node index.js"
+  },--->npm run start 
+  

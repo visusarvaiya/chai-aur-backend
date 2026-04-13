@@ -1,0 +1,30 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1776069578969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1776069585610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   \"name\": \"backend\",\n   \"version\": \"1.0.0\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"test\": \"echo \\\"Error: no te1st specified\\\" && exit \"\n+    \"test\": \" \"\n   },\n   \"repository\": {\n     \"type\": \"git\",\n     \"url\": \"git+https://github.com/visusarvaiya/chai-aur-backend.git\"\n"
+                },
+                {
+                    "date": 1776069595877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   \"name\": \"backend\",\n   \"version\": \"1.0.0\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"test\": \" \"\n+    \"start\": \"\"\n   },\n   \"repository\": {\n     \"type\": \"git\",\n     \"url\": \"git+https://github.com/visusarvaiya/chai-aur-backend.git\"\n"
+                },
+                {
+                    "date": 1776069606466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   \"name\": \"backend\",\n   \"version\": \"1.0.0\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"start\": \"\"\n+    \"start\": \"node index.js\"\n   },\n   \"repository\": {\n     \"type\": \"git\",\n     \"url\": \"git+https://github.com/visusarvaiya/chai-aur-backend.git\"\n"
+                }
+            ],
+            "date": 1776069578969,
+            "name": "Commit-0",
+            "content": "{\n  \"name\": \"backend\",\n  \"version\": \"1.0.0\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no te1st specified\\\" && exit \"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/visusarvaiya/chai-aur-backend.git\"\n  },\n  \"author\": \"VISHVA\",\n  \"license\": \"ISC\",\n  \"bugs\": {\n    \"url\": \"https://github.com/visusarvaiya/chai-aur-backend/issues\"\n  },\n  \"homepage\": \"https://github.com/visusarvaiya/chai-aur-backend#readme\",\n  \"description\": \"\"\n}\n"
+        }
+    ]
+}

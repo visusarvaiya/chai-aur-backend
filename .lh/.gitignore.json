@@ -3,6 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
+<<<<<<< HEAD
             "activePatchIndex": 1,
             "patches": [
                 {
@@ -17,6 +18,38 @@
             "date": 1776075059344,
             "name": "Commit-0",
             "content": ".env\r\nnode "
+=======
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1776072229473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1776072234934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-PORT\n\\ No newline at end of file\n+.ENV\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776072260651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-.ENV\n\\ No newline at end of file\n+.env\r\n+node\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776072278464,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,4 @@\n .env\r\n-node\n\\ No newline at end of file\n+node_modules\r\n+\r\n+// \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776072285520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .env\r\n node_modules\r\n \r\n-// \n\\ No newline at end of file\n+// in gitrepo \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776072306521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .env\r\n node_modules\r\n \r\n-// in gitrepo \n\\ No newline at end of file\n+// in gitrepo  it will not show information which is private in .env \n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1776072229473,
+            "name": "Commit-0",
+            "content": "PORT"
+>>>>>>> 1a4330b (LECTURE 2)
         }
     ]
 }

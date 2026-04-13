@@ -1,2 +1,8 @@
 .env
+<<<<<<< HEAD
 node_modules
+=======
+node_modules
+
+// in gitrepo  it will not show information which is private in .env 
+>>>>>>> 1a4330b (LECTURE 2)

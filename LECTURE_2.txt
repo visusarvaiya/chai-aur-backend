@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 express(framework npde js) and mongoose is pacakage
 
 
@@ -13,3 +14,18 @@ express - req, res handle mostly
   $ npm install express 
         
 
+=======
+express(framework npde js) and mongoose is pacakage
+
+
+  "scripts": {
+    "start": "node index.js"
+  },--->npm run start 
+
+
+express - req, res handle mostly 
+        callback ()=>{}
+  $ npm install express 
+        
+
+>>>>>>> 1a4330b (LECTURE 2)

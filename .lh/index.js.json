@@ -3,6 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
+<<<<<<< HEAD
             "activePatchIndex": 4,
             "patches": [
                 {
@@ -29,6 +30,90 @@
             "date": 1776075197213,
             "name": "Commit-0",
             "content": "require('dotenv').config()\r\nconst express = require('express')\r\nconst app = express()\r\nconst port = 3000\r\n\r\napp.get('/', (req, res) => {\r\n  res.send('Hello World!')\r\n})\r\nconst githubdata ={\r\n  \r\n\"current_user_url\": \"https://api.github.com/user\",\r\n\"current_user_authorizations_html_url\": \"https://github.com/settings/connections/applications{/client_id}\",\r\n\"authorizations_url\": \"https://api.github.com/authorizations\",\r\n\"code_search_url\": \"https://api.github.com/search/code?q={query}{&page,per_page,sort,order}\",\r\n\"commit_search_url\": \"https://api.github.com/search/commits?q={query}{&page,per_page,sort,order}\",\r\n\"emails_url\": \"https://api.github.com/user/emails\",\r\n\"emojis_url\": \"https://api.github.com/emojis\",\r\n\"events_url\": \"https://api.github.com/events\",\r\n\"feeds_url\": \"https://api.github.com/feeds\",\r\n\"followers_url\": \"https://api.github.com/user/followers\",\r\n\"following_url\": \"https://api.github.com/user/following{/target}\",\r\n\"gists_url\": \"https://api.github.com/gists{/gist_id}\",\r\n\"hub_url\": \"https://api.github.com/hub\",\r\n\"issue_search_url\": \"https://api.github.com/search/issues?q={query}{&page,per_page,sort,order}\",\r\n\"issues_url\": \"https://api.github.com/issues\",\r\n\"keys_url\": \"https://api.github.com/user/keys\",\r\n\"label_search_url\": \"https://api.github.com/search/labels?q={query}&repository_id={repository_id}{&page,per_page}\",\r\n\"notifications_url\": \"https://api.github.com/notifications\",\r\n\"organization_url\": \"https://api.github.com/orgs/{org}\",\r\n\"organization_repositories_url\": \"https://api.github.com/orgs/{org}/repos{?type,page,per_page,sort}\",\r\n\"organization_teams_url\": \"https://api.github.com/orgs/{org}/teams\",\r\n\"public_gists_url\": \"https://api.github.com/gists/public\",\r\n\"rate_limit_url\": \"https://api.github.com/rate_limit\",\r\n\"repository_url\": \"https://api.github.com/repos/{owner}/{repo}\",\r\n\"repository_search_url\": \"https://api.github.com/search/repositories?q={query}{&page,per_page,sort,order}\",\r\n\"current_user_repositories_url\": \"https://api.github.com/user/repos{?type,page,per_page,sort}\",\r\n\"starred_url\": \"https://api.github.com/user/starred{/owner}{/repo}\",\r\n\"starred_gists_url\": \"https://api.github.com/gists/starred\",\r\n\"topic_search_url\": \"https://api.github.com/search/topics?q={query}{&page,per_page}\",\r\n\"user_url\": \"https://api.github.com/users/{user}\",\r\n\"user_organizations_url\": \"https://api.github.com/user/orgs\",\r\n\"user_repositories_url\": \"https://api.github.com/users/{user}/repos{?type,page,per_page,sort}\",\r\n\"user_search_url\": \"https://api.github.com/search/users?q={query}{&page,per_page,sort,order}\"\r\n}\r\napp.get('/great',(req,res)=>{\r\n    res.send(\"welcome to my page \")\r\n})\r\n\r\napp.listen(process.env.PORT, () => {\r\n  console.log(`Example app listening on port ${port}`)\r\n})\r\n// above we amde is server "
+=======
+            "activePatchIndex": 18,
+            "patches": [
+                {
+                    "date": 1776069532416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1776069537615,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-co\n\\ No newline at end of file\n+console.log\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776069543536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-console.log\n\\ No newline at end of file\n+console.log(\"\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776069548777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-console.log(\"\")\n\\ No newline at end of file\n+console.log(\"hello worlds\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776069554497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-console.log(\"hello worlds\")\n\\ No newline at end of file\n+console.log(\"hello world !\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776070319946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,11 @@\n-console.log(\"hello world !\")\n\\ No newline at end of file\n+const express = require('express')\r\n+const app = express()\r\n+const port = 3000\r\n+\r\n+app.get('/', (req, res) => {\r\n+  res.send('Hello World!')\r\n+})\r\n+\r\n+app.listen(port, () => {\r\n+  console.log(`Example app listening on port ${port}`)\r\n+})\r\n"
+                },
+                {
+                    "date": 1776070340128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,9 @@\n app.get('/', (req, res) => {\r\n   res.send('Hello World!')\r\n })\r\n \r\n+app.get()\r\n+\r\n app.listen(port, () => {\r\n   console.log(`Example app listening on port ${port}`)\r\n })\r\n"
+                },
+                {
+                    "date": 1776070345494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n app.get('/', (req, res) => {\r\n   res.send('Hello World!')\r\n })\r\n \r\n-app.get()\r\n+app.get('/')\r\n \r\n app.listen(port, () => {\r\n   console.log(`Example app listening on port ${port}`)\r\n })\r\n"
+                },
+                {
+                    "date": 1776070351400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n app.get('/', (req, res) => {\r\n   res.send('Hello World!')\r\n })\r\n \r\n-app.get('/')\r\n+app.get('/great')\r\n \r\n app.listen(port, () => {\r\n   console.log(`Example app listening on port ${port}`)\r\n })\r\n"
+                },
+                {
+                    "date": 1776070358312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n app.get('/', (req, res) => {\r\n   res.send('Hello World!')\r\n })\r\n \r\n-app.get('/great')\r\n+app.get('/great',(req,res))\r\n \r\n app.listen(port, () => {\r\n   console.log(`Example app listening on port ${port}`)\r\n })\r\n"
+                },
+                {
+                    "date": 1776070367024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,11 @@\n app.get('/', (req, res) => {\r\n   res.send('Hello World!')\r\n })\r\n \r\n-app.get('/great',(req,res))\r\n+app.get('/great',(req,res)=>{\r\n+    \r\n+})\r\n \r\n app.listen(port, () => {\r\n   console.log(`Example app listening on port ${port}`)\r\n })\r\n"
+                },
+                {
+                    "date": 1776070372326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   res.send('Hello World!')\r\n })\r\n \r\n app.get('/great',(req,res)=>{\r\n-    \r\n+    res.s\r\n })\r\n \r\n app.listen(port, () => {\r\n   console.log(`Example app listening on port ${port}`)\r\n"
+                },
+                {
+                    "date": 1776070378560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   res.send('Hello World!')\r\n })\r\n \r\n app.get('/great',(req,res)=>{\r\n-    res.s\r\n+    res.send(\"he\")\r\n })\r\n \r\n app.listen(port, () => {\r\n   console.log(`Example app listening on port ${port}`)\r\n"
+                },
+                {
+                    "date": 1776070386113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   res.send('Hello World!')\r\n })\r\n \r\n app.get('/great',(req,res)=>{\r\n-    res.send(\"he\")\r\n+    res.send(\"welcome to \")\r\n })\r\n \r\n app.listen(port, () => {\r\n   console.log(`Example app listening on port ${port}`)\r\n"
+                },
+                {
+                    "date": 1776070476854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,11 @@\n   res.send('Hello World!')\r\n })\r\n \r\n app.get('/great',(req,res)=>{\r\n-    res.send(\"welcome to \")\r\n+    res.send(\"welcome to my page \")\r\n })\r\n \r\n app.listen(port, () => {\r\n   console.log(`Example app listening on port ${port}`)\r\n })\r\n+// above we amde is server \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776071190747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+\r\n const express = require('express')\r\n const app = express()\r\n const port = 3000\r\n \r\n"
+                },
+                {
+                    "date": 1776071277351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\r\n+require('dotenv').config()\r\n const express = require('express')\r\n const app = express()\r\n const port = 3000\r\n \r\n@@ -10,8 +10,8 @@\n app.get('/great',(req,res)=>{\r\n     res.send(\"welcome to my page \")\r\n })\r\n \r\n-app.listen(port, () => {\r\n+app.listen(, () => {\r\n   console.log(`Example app listening on port ${port}`)\r\n })\r\n // above we amde is server \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776071348875,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n app.get('/great',(req,res)=>{\r\n     res.send(\"welcome to my page \")\r\n })\r\n \r\n-app.listen(, () => {\r\n+app.listen(process., () => {\r\n   console.log(`Example app listening on port ${port}`)\r\n })\r\n // above we amde is server \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776071355493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n app.get('/great',(req,res)=>{\r\n     res.send(\"welcome to my page \")\r\n })\r\n \r\n-app.listen(process.e, () => {\r\n+app.listen(process.env.PORT, () => {\r\n   console.log(`Example app listening on port ${port}`)\r\n })\r\n // above we amde is server \n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1776069532416,
+            "name": "Commit-0",
+            "content": "co"
+>>>>>>> 1a4330b (LECTURE 2)
         }
     ]
 }

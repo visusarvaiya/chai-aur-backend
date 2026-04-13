@@ -1,0 +1,50 @@
+{
+    "sourceFile": "LECTURE_2.txt",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1776069670611,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1776069682209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-ls \r\n+express and mongooes \r\n"
+                },
+                {
+                    "date": 1776069689445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-express and mongooes \r\n+express and mongooes is pacakage \r\n+\r\n"
+                },
+                {
+                    "date": 1776069699847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n-express and mongooes is pacakage \r\n+express and mongoose is pacakage \r\n \r\n"
+                },
+                {
+                    "date": 1776069769933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,4 @@\n express and mongoose is pacakage \r\n-\r\n+  \"scripts\": {\r\n+    \"start\": \"node index.js\"\r\n+  },\r\n"
+                },
+                {
+                    "date": 1776069777184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n express and mongoose is pacakage \r\n   \"scripts\": {\r\n     \"start\": \"node index.js\"\r\n-  },\r\n+  },--->npm run start \r\n+  \r\n"
+                },
+                {
+                    "date": 1776069830520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,10 @@\n-express and mongoose is pacakage \r\n+express(framework npde js) and mongoose is pacakage\r\n+\r\n+\r\n   \"scripts\": {\r\n     \"start\": \"node index.js\"\r\n   },--->npm run start \r\n-  \r\n+\r\n+\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1776070097045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,7 @@\n     \"start\": \"node index.js\"\r\n   },--->npm run start \r\n \r\n \r\n+express - req, res handle mostly \r\n+        \r\n \r\n-\r\n"
+                },
+                {
+                    "date": 1776070103405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,6 @@\n   },--->npm run start \r\n \r\n \r\n express - req, res handle mostly \r\n-        callback ()\r\n+        callback ()=\r\n \r\n"
+                }
+            ],
+            "date": 1776069670611,
+            "name": "Commit-0",
+            "content": "ls \r\n"
+        }
+    ]
+}

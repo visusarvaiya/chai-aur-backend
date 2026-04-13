@@ -1,0 +1,11 @@
+express(framework npde js) and mongoose is pacakage
+
+
+  "scripts": {
+    "start": "node index.js"
+  },--->npm run start 
+
+
+express - req, res handle mostly 
+        callback ()=>{}
+
