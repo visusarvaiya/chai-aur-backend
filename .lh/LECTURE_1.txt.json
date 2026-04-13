@@ -1,0 +1,18 @@
+{
+    "sourceFile": "LECTURE_1.txt",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1776076493214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1776076493214,
+            "name": "Commit-0",
+            "content": ">> LECTURE 1\n\n\n\n.server is software \n.database is in another continent\n. in js handle file , data , third party api (mail)\n.node.js runtime of java\n.api interaction btw backend and device . it send arrray , t/f etc  and also recive \n\n\n................................................................\nFOLDERS IN BACKEND\n.............................................................\n\n.src - index-db connecct\n     -app - config , cookies\n     - constants - enum (male , female, other),db name\n\n......................................................................\n\n🔹 1. Models (Database Structure)\n   .Defines how your data looks\n   👉 Example: User schema (name, email, password)\n\n\n................................................................................\n🔹 2. Routes (API Endpoints)\n    Defines URLs (API paths)\nConnects route → controller\n\n👉 Example:\n\nPOST /api/register → registerUser()\n...................................................................................\n\n .\n🔹 3. Controllers (Logic)\nContains main business logic\nHandles request + response\n\n👉 Example:\n\nRegister user\nLogin user\n\n📌 Think: “What happens when API is called?”\n\n\n..................................................................................\n🔹 4. Middleware (Middle Layer)\nRuns before controller\nUsed for:\nAuthentication (JWT)\nError handling\nLogging\n\n📌 Think: “Check/modify request before main logic”\n............................................................................\n🔹 5. Utils (Helper Functions)\nReusable functions(mail)\nUsed anywhere\n\n👉 Example:\n\nGenerate token\nHash password\n\n📌 Think: “Common tools used everywhere”\n.............................................................................................\n\n🔹 6. DB (Database Connection)\nConnects your app to MongoDB\n\n👉 Example:\n\nmongoose.connect(process.env.MONGO_URI)\n\n📌 Think: “How app connects to database”\n.................................................................................\n\nClient (Frontend / Postman)\n          ↓\n        Routes\n          ↓\n     Middleware\n          ↓\n     Controllers\n          ↓\n        Models\n          ↓\n      Database (MongoDB)\n\n\n....................................................................................\n\n\n  🔥 Full Flow Example\nUser hits API → /register\nRoute catches it\nMiddleware checks (if needed)\nController runs logic\nModel saves data\nDB stores data\nResponse sent back\n\n\n..................................................................................."
+        }
+    ]
+}
