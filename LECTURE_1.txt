@@ -143,7 +143,7 @@ Connects route → controller
 POST /api/register → registerUser()
 ...................................................................................
 
-
+ .
 🔹 3. Controllers (Logic)
 Contains main business logic
 Handles request + response
@@ -200,7 +200,7 @@ Client (Frontend / Postman)
           ↓
       Database (MongoDB)
 
-      
+
 ....................................................................................
 
 
