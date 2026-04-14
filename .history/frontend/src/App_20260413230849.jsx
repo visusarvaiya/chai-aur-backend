@@ -1,0 +1,25 @@
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from './assets/vite.svg'
+// import heroImg from './assets/hero.png'
+import { useState } from 'react'
+import './App.css'
+
+function App() {
+   const [jokes ,setjokes] = useState([])
+
+  return (
+     <h1> chai and fullstack</h1>
+     <p>jokes : {jokes.length}</p>
+     {  
+      jokes.map((joke, index)=>{
+        <div key={joke.id} >
+        <h3
+         </div>
+      })
+
+     }
+  )
+}
+
+export default App

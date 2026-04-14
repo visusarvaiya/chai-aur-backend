@@ -1,0 +1,102 @@
+{
+    "sourceFile": "frontend/src/App.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 21,
+            "patches": [
+                {
+                    "date": 1776101255180,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1776101263530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import heroImg from './assets/hero.png'\n import './App.css'\n \n function App() {\n-  const [count, setCount] = useState(0)\n+  c\n \n   return (\n   \n   )\n"
+                },
+                {
+                    "date": 1776101275405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,12 +4,12 @@\n import heroImg from './assets/hero.png'\n import './App.css'\n \n function App() {\n-  c\n+  \n \n   return (\n-  \n+     \n   )\n }\n \n export default App\n"
+                },
+                {
+                    "date": 1776101310503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n function App() {\n   \n \n   return (\n-     \n+     <h1\n   )\n }\n \n export default App\n"
+                },
+                {
+                    "date": 1776101323346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n function App() {\n   \n \n   return (\n-     <h1\n+     <h1> chai and fullstack</h1>\n   )\n }\n \n export default App\n"
+                },
+                {
+                    "date": 1776101331114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n-import { useState } from 'react'\n-import reactLogo from './assets/react.svg'\n-import viteLogo from './assets/vite.svg'\n-import heroImg from './assets/hero.png'\n+// import { useState } from 'react'\n+// import reactLogo from './assets/react.svg'\n+// import viteLogo from './assets/vite.svg'\n+// import heroImg from './assets/hero.png'\n import './App.css'\n \n function App() {\n   \n"
+                },
+                {
+                    "date": 1776101547797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n // import heroImg from './assets/hero.png'\n import './App.css'\n \n function App() {\n-  \n+   \n \n   return (\n      <h1> chai and fullstack</h1>\n   )\n"
+                },
+                {
+                    "date": 1776101553629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n // import heroImg from './assets/hero.png'\n import './App.css'\n \n function App() {\n-   \n+   const jokes \n \n   return (\n      <h1> chai and fullstack</h1>\n   )\n"
+                },
+                {
+                    "date": 1776101569332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n // import heroImg from './assets/hero.png'\n import './App.css'\n \n function App() {\n-   const jokes \n+   const jokes setjokes\n \n   return (\n      <h1> chai and fullstack</h1>\n   )\n"
+                },
+                {
+                    "date": 1776101575774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n // import heroImg from './assets/hero.png'\n import './App.css'\n \n function App() {\n-   const jokes setjokes\n+   const [jokes ,setjokes\n \n   return (\n      <h1> chai and fullstack</h1>\n   )\n"
+                },
+                {
+                    "date": 1776101586401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n // import heroImg from './assets/hero.png'\n import './App.css'\n \n function App() {\n-   const [jokes ,setjokes\n+   const [jokes ,setjokes] = \n \n   return (\n      <h1> chai and fullstack</h1>\n   )\n"
+                },
+                {
+                    "date": 1776101593372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,13 @@\n // import { useState } from 'react'\n // import reactLogo from './assets/react.svg'\n // import viteLogo from './assets/vite.svg'\n // import heroImg from './assets/hero.png'\n+import { useState } from 'react'\n import './App.css'\n \n function App() {\n-   const [jokes ,setjokes] = \n+   const [jokes ,setjokes] = useState\n \n   return (\n      <h1> chai and fullstack</h1>\n   )\n"
+                },
+                {
+                    "date": 1776101614495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n // import { useState } from 'react'\n // import reactLogo from './assets/react.svg'\n-// import viteLogo from './assets/vite.svg'\n+import viteLogo from './assets/vite.svg'\n // import heroImg from './assets/hero.png'\n import { useState } from 'react'\n import './App.css'\n \n function App() {\n-   const [jokes ,setjokes] = useState\n+   const [jokes ,setjokes] = useState([])\n \n   return (\n      <h1> chai and fullstack</h1>\n   )\n"
+                },
+                {
+                    "date": 1776101633780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n // import { useState } from 'react'\n // import reactLogo from './assets/react.svg'\n-import viteLogo from './assets/vite.svg'\n+// import viteLogo from './assets/vite.svg'\n // import heroImg from './assets/hero.png'\n import { useState } from 'react'\n import './App.css'\n \n@@ -9,8 +9,9 @@\n    const [jokes ,setjokes] = useState([])\n \n   return (\n      <h1> chai and fullstack</h1>\n+     <p\n   )\n }\n \n export default App\n"
+                },
+                {
+                    "date": 1776101640662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n    const [jokes ,setjokes] = useState([])\n \n   return (\n      <h1> chai and fullstack</h1>\n-     <p\n+     <p>jokes = {</p>\n   )\n }\n \n export default App\n"
+                },
+                {
+                    "date": 1776101647297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n    const [jokes ,setjokes] = useState([])\n \n   return (\n      <h1> chai and fullstack</h1>\n-     <p>jokes = {</p>\n+     <p>jokes = {jokes.length}</p>\n   )\n }\n \n export default App\n"
+                },
+                {
+                    "date": 1776101671858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n    const [jokes ,setjokes] = useState([])\n \n   return (\n      <h1> chai and fullstack</h1>\n-     <p>jokes = {jokes.length}</p>\n+     <p>jokes = {joke.length}</p>\n   )\n }\n \n export default App\n"
+                },
+                {
+                    "date": 1776101678293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import { useState } from 'react'\n import './App.css'\n \n function App() {\n-   const [jokes ,setjokes] = useState([])\n+   const [joke ,setjokes] = useState([])\n \n   return (\n      <h1> chai and fullstack</h1>\n      <p>jokes = {joke.length}</p>\n"
+                },
+                {
+                    "date": 1776101693202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n    const [joke ,setjokes] = useState([])\n \n   return (\n      <h1> chai and fullstack</h1>\n-     <p>jokes = {joke.length}</p>\n+     <p>joke : {joke.length}</p>\n   )\n }\n \n export default App\n"
+                },
+                {
+                    "date": 1776101743131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import { useState } from 'react'\n import './App.css'\n \n function App() {\n-   const [joke ,setjokes] = useState([])\n+   const [jokes ,setjokes] = useState([])\n \n   return (\n      <h1> chai and fullstack</h1>\n      <p>joke : {joke.length}</p>\n"
+                },
+                {
+                    "date": 1776101750679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n \n   return (\n      <h1> chai and fullstack</h1>\n      <p>jokes : {jokes.length}</p>\n-     \n+     {}\n   )\n }\n \n export default App\n"
+                },
+                {
+                    "date": 1776101824284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   return (\n      <h1> chai and fullstack</h1>\n      <p>jokes : {jokes.length}</p>\n      {  \n-      jokes.map(())\n+      jokes.map((j))\n \n      }\n   )\n }\n"
+                }
+            ],
+            "date": 1776101255180,
+            "name": "Commit-0",
+            "content": "import { useState } from 'react'\nimport reactLogo from './assets/react.svg'\nimport viteLogo from './assets/vite.svg'\nimport heroImg from './assets/hero.png'\nimport './App.css'\n\nfunction App() {\n  const [count, setCount] = useState(0)\n\n  return (\n  \n  )\n}\n\nexport default App\n"
+        }
+    ]
+}

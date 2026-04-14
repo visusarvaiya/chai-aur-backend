@@ -1,0 +1,10 @@
+CORS = CROSS ORIGIN - diiferent url also CORS disturb 
+white list url - allow only to them - it give allowance 
+
+
+proxy
+✔️ So:
+
+Browser still runs on 5173
+Backend runs on 3000
+Proxy just connects them

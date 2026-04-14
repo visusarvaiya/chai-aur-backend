@@ -1,0 +1,2 @@
+CORS = CROSS ORIGIN 
+white list url 

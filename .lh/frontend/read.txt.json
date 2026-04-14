@@ -1,0 +1,46 @@
+{
+    "sourceFile": "frontend/read.txt",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1776103094273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1776103099729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n CORS = CROSS ORIGIN \r\n+white list \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776103116189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n CORS = CROSS ORIGIN \r\n-white list \n\\ No newline at end of file\n+white list url - allow only to them \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776103126499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n CORS = CROSS ORIGIN \r\n-white list url - allow only to them \n\\ No newline at end of file\n+white list url - allow only to them - it give allowance \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776158103275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n-CORS = CROSS ORIGIN \r\n+CORS = CROSS ORIGIN - \r\n white list url - allow only to them - it give allowance \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776158110796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n-CORS = CROSS ORIGIN - \r\n+CORS = CROSS ORIGIN - diiferent url also \r\n white list url - allow only to them - it give allowance \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776158120268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n-CORS = CROSS ORIGIN - diiferent url also \r\n+CORS = CROSS ORIGIN - diiferent url also CORS disturb \r\n white list url - allow only to them - it give allowance \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1776160783476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,4 +2,9 @@\n white list url - allow only to them - it give allowance \r\n \r\n \r\n proxy\r\n+✔️ So:\r\n+\r\n+Browser still runs on 5173\r\n+Backend runs on 3000\r\n+Proxy just connects them\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1776103094273,
+            "name": "Commit-0",
+            "content": "CORS = CROSS ORIGIN \r\n"
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+CORS = CROSS ORIGIN - diif
+white list url - allow only to them - it give allowance 

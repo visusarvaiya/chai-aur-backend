@@ -1,0 +1,14 @@
+CORS = CROSS ORIGIN - diiferent url also CORS disturb 
+white list url - allow only to them - it give allowance 
+
+
+proxy
+
+
+in proxy we chnge in frontwnd port 3000 then 
+why in frontend it run on 5173 in terminal it should not run ojn 3000
+✔️ So:
+
+Browser still runs on 5173
+Backend runs on 3000
+Proxy just connects them

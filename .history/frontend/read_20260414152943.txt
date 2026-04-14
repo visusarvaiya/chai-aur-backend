@@ -1,0 +1,5 @@
+CORS = CROSS ORIGIN - diiferent url also CORS disturb 
+white list url - allow only to them - it give allowance 
+
+
+proxy

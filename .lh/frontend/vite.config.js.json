@@ -1,0 +1,82 @@
+{
+    "sourceFile": "frontend/vite.config.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 16,
+            "patches": [
+                {
+                    "date": 1776158319078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1776158388670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n import react from '@vitejs/plugin-react'\n \n // https://vite.dev/config/\n export default defineConfig({\n-  \n+  server\n   plugins: [react()],\n })\n"
+                },
+                {
+                    "date": 1776158395549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,9 @@\n import react from '@vitejs/plugin-react'\n \n // https://vite.dev/config/\n export default defineConfig({\n-  server\n+  server:{\n+    proxy\n+  }\n   plugins: [react()],\n })\n"
+                },
+                {
+                    "date": 1776158460942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \n // https://vite.dev/config/\n export default defineConfig({\n   server:{\n-    proxy\n+    proxy:\n   }\n   plugins: [react()],\n })\n"
+                },
+                {
+                    "date": 1776158466747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \n // https://vite.dev/config/\n export default defineConfig({\n   server:{\n-    proxy:\n+    proxy: http://localhost:3000\n   }\n   plugins: [react()],\n })\n"
+                },
+                {
+                    "date": 1776158477130,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n \n // https://vite.dev/config/\n export default defineConfig({\n   server:{\n-    proxy: http://localhost:3000\n+    proxy: {\n+      http://localhost:3000\n   }\n   plugins: [react()],\n })\n"
+                },
+                {
+                    "date": 1776158482679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n // https://vite.dev/config/\n export default defineConfig({\n   server:{\n     proxy: {\n-      http://localhost:3000\n+      'apihttp://localhost:3000\n   }\n   plugins: [react()],\n })\n"
+                },
+                {
+                    "date": 1776158489178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n // https://vite.dev/config/\n export default defineConfig({\n   server:{\n     proxy: {\n-      'apihttp://localhost:3000\n+      'api': 'http://localhost:3000\n   }\n   plugins: [react()],\n })\n"
+                },
+                {
+                    "date": 1776158496504,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n // https://vite.dev/config/\n export default defineConfig({\n   server:{\n     proxy: {\n-      'api': 'http://localhost:3000\n+      'api': 'http://localhost:3000',\n   }\n   plugins: [react()],\n })\n"
+                },
+                {
+                    "date": 1776158502520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n export default defineConfig({\n   server:{\n     proxy: {\n       'api': 'http://localhost:3000',\n-  }\n+  },\n   plugins: [react()],\n-})\n+});\n"
+                },
+                {
+                    "date": 1776158508609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n     proxy: {\n       'api': 'http://localhost:3000',\n   },\n   plugins: [react()],\n-});\n+})\n"
+                },
+                {
+                    "date": 1776158516011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,7 @@\n   server:{\n     proxy: {\n       'api': 'http://localhost:3000',\n   },\n+}\n   plugins: [react()],\n })\n"
+                },
+                {
+                    "date": 1776158559563,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n \n // https://vite.dev/config/\n export default defineConfig({\n   server:{\n-    proxy: {\n+    proxy: {// it will append at place of \n       'api': 'http://localhost:3000',\n   },\n-}\n+},\n   plugins: [react()],\n })\n"
+                },
+                {
+                    "date": 1776158598894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n // https://vite.dev/config/\n export default defineConfig({\n   server:{\n-    proxy: {// it will append at place of \n+    proxy: {// it will append at place of  \n       'api': 'http://localhost:3000',\n   },\n },\n   plugins: [react()],\n"
+                },
+                {
+                    "date": 1776158608432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n // https://vite.dev/config/\n export default defineConfig({\n   server:{\n-    proxy: {// it will append at place of  \n+    proxy: {// it will append at place of where it is sow \n       'api': 'http://localhost:3000',\n   },\n },\n   plugins: [react()],\n"
+                },
+                {
+                    "date": 1776158614034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n // https://vite.dev/config/\n export default defineConfig({\n   server:{\n-    proxy: {// it will append at place of where it is sow \n+    proxy: {// it will append at place of where it is shown ap \n       'api': 'http://localhost:3000',\n   },\n },\n   plugins: [react()],\n"
+                },
+                {
+                    "date": 1776160596955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,14 @@\n import { defineConfig } from 'vite'\n import react from '@vitejs/plugin-react'\n \n-// https://vite.dev/config/\n export default defineConfig({\n-  server:{\n-    proxy: {// it will append at place of where it is shown ap \n-      'api': 'http://localhost:3000',\n-  },\n-},\n   plugins: [react()],\n-})\n+  server: {\n+    proxy: {\n+      '/api': {\n+        target: 'http://localhost:3000',\n+        changeOrigin: true\n+      }\n+    }\n+  }\n+})\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1776158319078,
+            "name": "Commit-0",
+            "content": "import { defineConfig } from 'vite'\nimport react from '@vitejs/plugin-react'\n\n// https://vite.dev/config/\nexport default defineConfig({\n  \n  plugins: [react()],\n})\n"
+        }
+    ]
+}
